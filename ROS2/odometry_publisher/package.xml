@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>odometry_publisher</name>
+  <version>1.0.0</version>
+  <description>Simulated odometry publisher for gmapping testing</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2_ros</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

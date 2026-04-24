@@ -1,0 +1,15 @@
+services:
+  ros2-gmapping:
+    image: osrf/ros:humble-desktop-full
+    container_name: ros2-gmapping
+    privileged: true
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ..:/workspace
+      - ../:/root/ros2_ws/src
+      - ~/.ssh:/root/.ssh:ro
+    working_dir: /root/ros2_ws
+    command: tail -f /dev/null

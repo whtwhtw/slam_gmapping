@@ -1,0 +1,7 @@
+<library path="slam_gmapping_component">
+  <class name="SlamGMappingComponent" type="SlamGMappingComponent" base_class_type="rclcpp_components::Component">
+    <description>
+      ROS2 Component for OpenSlAM's Gmapping.
+    </description>
+  </class>
+</library>

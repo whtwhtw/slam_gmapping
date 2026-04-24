@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_state_publisher_pkg</name>
+  <version>1.0.0</version>
+  <description>Robot state publisher for gmapping</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>robot_state_publisher</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
